@@ -6,7 +6,6 @@ public class Prime {
         for(int i=2; i <= num/2; i++){
             if(num%i == 0) {
                 return false;
-
             }
         }
         return true;
@@ -16,7 +15,7 @@ public class Prime {
         int num = 7;
 
         if (isPrime(num)) {
-            System.out.println(num + " is a Prime number");
+            System.out.println(num + " is Prime number");
         } else {
             System.out.println(num + " is not Prime number");
         }
