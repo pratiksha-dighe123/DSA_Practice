@@ -14,8 +14,8 @@ public class SumDigit {
 
     public static void main(String[] args){
         SumDigit sm= new SumDigit();
+        System.out.println("The sum is:");
         System.out.println(sm.digSum(2345));
     }
-
 
 }
